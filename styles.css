@@ -1,1 +1,10 @@
 // Your CSS code here.
+ .slide-in {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.9);
+    transition: all 0.5s;
+  }
+  .active {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
